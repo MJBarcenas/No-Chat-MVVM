@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xct:StatusBarEffect.Color="Black"
+             xmlns:local="clr-namespace:No_Chat_MVVM"
+             xmlns:viewmodels="clr-namespace:No_Chat_MVVM.ViewModels"
+             x:DataType="viewmodels:OptionViewModel"
+             x:Class="No_Chat_MVVM.Views.Option">
+    <ContentPage.BindingContext>
+        <viewmodels:OptionViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Padding="0, 20" BackgroundColor="Black">
+            <xct:AvatarView Source="{Binding ProfileAvatar}" HorizontalOptions="Center" HeightRequest="240" Size="150" >
+                <xct:AvatarView.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding updateProfileCommand}" NumberOfTapsRequired="1"/>
+                </xct:AvatarView.GestureRecognizers>
+            </xct:AvatarView>
+            <Label Text="{Binding ProfileName}" TextColor="White" FontSize="Title" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Padding="10" Text="Set background image" TextColor="White" FontSize="Large" xct:TouchEffect.AnimationDuration="500" xct:TouchEffect.PressedBackgroundColor="#f0ffffff" xct:TouchEffect.NormalBackgroundColor="Transparent">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding updateBackgroundCommand}" NumberOfTapsRequired="1"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <Label Padding="10" Text="Set message color" TextColor="White" FontSize="Large" xct:TouchEffect.AnimationDuration="500" xct:TouchEffect.PressedBackgroundColor="#f0ffffff" xct:TouchEffect.NormalBackgroundColor="Transparent">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <Button Margin="20, 0, 20, 5" Text="Logout" TextColor="White" BackgroundColor="#ff3517" VerticalOptions="EndAndExpand" Command="{Binding logoutCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

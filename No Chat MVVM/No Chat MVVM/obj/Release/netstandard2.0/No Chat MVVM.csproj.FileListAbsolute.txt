@@ -1,0 +1,17 @@
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\bin\Release\netstandard2.0\No Chat MVVM.deps.json
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\bin\Release\netstandard2.0\No Chat MVVM.dll
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\bin\Release\netstandard2.0\No Chat MVVM.pdb
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\No Chat MVVM.csproj.AssemblyReference.cache
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\No Chat MVVM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\Views\Login.xaml.g.cs
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\Views\Option.xaml.g.cs
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\Views\Room.xaml.g.cs
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\No Chat MVVM.AssemblyInfoInputs.cache
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\No Chat MVVM.AssemblyInfo.cs
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\No Chat MVVM.csproj.CoreCompileInputs.cache
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\XamlC.stamp
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\No Chat MVVM.dll
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\refint\No Chat MVVM.dll
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\No Chat MVVM.pdb
+C:\Programming\No Chat MVVM\No Chat MVVM\No Chat MVVM\obj\Release\netstandard2.0\ref\No Chat MVVM.dll
